@@ -21,13 +21,17 @@ import com.google.firebase.messaging.FirebaseMessaging;
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
 
+import io.reactivex.rxjava3.core.Observable;
+
 public class MyFirebaseMessagingService extends FirebaseMessagingService {
 
-    String token = FirebaseMessaging.getInstance().getToken().getResult();
+
+
 
     @Override
     public void onNewToken(@NonNull String token) {
        Log.w("FCM Log"," token: " + token);
+
     }
 
 //    @Override
