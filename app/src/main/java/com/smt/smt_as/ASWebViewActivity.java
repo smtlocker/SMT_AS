@@ -26,6 +26,6 @@ public class ASWebViewActivity extends AppCompatActivity {
         webView.getSettings().setJavaScriptCanOpenWindowsAutomatically(true);
         webView.getSettings().setSupportMultipleWindows(true);
         webView.getSettings().setDomStorageEnabled(true);
-        webView.loadUrl("https://www.google.com/");
+        webView.loadUrl("http://211.117.60.119/ars/as");
     }
 }

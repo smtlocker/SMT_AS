@@ -6,11 +6,24 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="385dp"
-        android:layout_height="98dp"
-        android:text="메인 화면 넘어가기"
+<!--    <Button-->
+<!--        android:id="@+id/button"-->
+<!--        android:layout_width="385dp"-->
+<!--        android:layout_height="98dp"-->
+<!--        android:text="token value 확인"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="396dp"
+        android:layout_height="706dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
